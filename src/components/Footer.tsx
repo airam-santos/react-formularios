@@ -4,7 +4,7 @@ interface FooterState {
   moviesCount: number;
 }
 
-export class Footer extends React.Component<{}, FooterState> {
+export default class Footer extends React.Component<{}, FooterState> {
   constructor(props) {
     super(props);
     this.state = {

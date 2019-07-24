@@ -10,7 +10,7 @@ interface BodyState {
   moviesCount: number;
 }
 
-export class Body extends React.Component<{}, BodyState> {
+export default class Body extends React.Component<{}, BodyState> {
   constructor(props) {
     super(props);
     this.state = {
