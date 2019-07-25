@@ -13,7 +13,7 @@ export default class NewMovie extends React.Component<
   NewMovieState
 > {
   handleChange(event) {
-    this.setState({ name: event.target.value });
+    this.setState({ name: event.target.name });
   }
 
   handleSubmit(event) {
